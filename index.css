@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&family=Rubik:wght@300&display=swap');
+
+
+body
+{
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: hsl(225, 100%, 94%);
+    background-size: 100%;
+    font-family: "Red Hat Display";
+}
+.card
+{
+    background-color: white;
+    border-radius: 20px;
+    width: 450px;
+    height: 670px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 7%;
+}
+.card2 img
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card h1
+{
+    font-weight: 900px;
+    text-align: center;
+    padding-top: 2%;
+}
+.card p
+{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.plan1
+{
+    display: inline-block;
+}
+.plan
+{
+    background-color:hsl(225, 100%, 98%);
+    text-align: center;
+    border-radius: 20px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 10%;
+    height: 90px;
+}
+#annualplan
+{
+    text-align: center;
+    position: relative;
+    top: -5px;
+    left: -65px;
+}
+#imgm
+{
+    position: relative;
+    top: 25px;
+    left: -75px;
+}
+#price
+{
+    margin-top: -6%;
+    margin-left: -22%;
+}
+.change
+{
+    position: relative;
+    top: -53px;
+    left: 120px;
+}
+a
+{
+    font-weight: 700;
+}
+a:hover
+{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+#btnpayment
+{
+    text-align: center;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 8%;
+    border-radius: 20px;
+    height: 50px;
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    box-shadow: 0px 18px 10px 0px hsl(225deg 100% 94%);
+    cursor: pointer;
+}
+#cancel
+{
+    font-weight: 700;
+    cursor: pointer;
+}
+#cancel:hover
+{
+    color: #B4C5E4;
+}
+#btnpayment:hover
+{
+    background-color: hsl(245deg 83% 68%);
+}
